@@ -15,8 +15,7 @@ function productCardTemplate(product) {
 
 export default class ProductList {
   constructor(category, dataSource, listElement) {
-    // We passed in this information to make our class as reusable as possible.
-    // Being able to define these things when we use the class will make it very flexible
+
     this.category = category;
     this.dataSource = dataSource;
     this.listElement = listElement;

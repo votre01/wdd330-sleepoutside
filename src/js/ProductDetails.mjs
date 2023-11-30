@@ -36,7 +36,7 @@ export default class ProductDetails {
       .addEventListener("click", this.addToCart.bind(this));
   }
   addToCart() {
-    let cartContents = getLocalStorage("so-cart");
+    let cartContents = getLocalStorage("[so-cart]");
     //check to see if there was anything there
     if (!cartContents) {
       cartContents = [];
